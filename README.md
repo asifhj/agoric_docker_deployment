@@ -189,7 +189,7 @@ node_1  | 2021-03-31T12:44:07.995Z block-manager: block 9 commit
 node_1  | 2021-03-31T12:44:08.037Z block-manager: block 10 begin
 ```
 
-## How do I make change to Dockerfile or update the Agoric SDK version and deploy?
+## How do I make changes to Dockerfile or update the Agoric SDK version and deploy it?
 ### Step 1: Clone the repository
 ```
 git clone https://github.com/asifhj/agoric_docker_deployment.git
@@ -457,4 +457,4 @@ node_1  | 2021-03-31T10:31:44.639Z block-manager: block 129 commit
 node_1  | 2021-03-31T10:31:45.201Z block-manager: block 130 begin
 node_1  | 2021-03-31T10:31:45.239Z block-manager: block 130 commit
 ```
-Use -d to detach from the container and run in background.
+Use -d to detach from the container and run in the background.
