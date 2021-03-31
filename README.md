@@ -1,5 +1,5 @@
 # Agoric Validator Docker Deployment
-This repo helps to run Agoric in docker container. A pre-built(dependencies and Agoric sdk@2.14.0) ubuntu docker image is available in the hub.docker. A startup script is used to determine the environment to start from the begining or resume from the exisitng setup.
+This repo helps to run Agoric in the docker container. A pre-built(dependencies and Agoric sdk@2.14.0) ubuntu docker image is available in the hub.docker. A startup script is used to determine the environment to start from the beginning or resume from the exisitng setup.
 
 Note: Network parameters are set to testnet.agoric.net
 
