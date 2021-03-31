@@ -244,7 +244,7 @@ agoric                                              latest    12d07f95522c   16 
 ## How to deploy Agoric docker container?
 ### Step 4: Go to cloned git repo and edit the environment variables and volume mount points as required.
 ```
-version: "3.9"
+version: "1.0"
 services:
   node:
     image: agoric
