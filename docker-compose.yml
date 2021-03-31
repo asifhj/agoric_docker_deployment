@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  node:
+    image: agoric
+    command: /bin/bash /root/startup.sh
+    ports:
+      - "26660:26660"
+      - "26656:26656"
+      - "9464:9464"
+      - "1317:1317"
+    environment:
+      - SETUP=0
+      - MONIKER=MyAgoricValidator
+    volumes:
+      - .ag-chain-cosmos:/root/.ag-chain-cosmos/
