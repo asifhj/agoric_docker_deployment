@@ -247,7 +247,7 @@ agoric                                              latest    12d07f95522c   16 
 version: "1.0"
 services:
   node:
-    image: agoric
+    image: asif/agoric_validator:sdk2.14.0
     command: /bin/bash /root/startup.sh
     ports:
       - "26660:26660"
