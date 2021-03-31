@@ -82,11 +82,11 @@ NOTE: SETUP=0 means just start Agoric service
 
 #### When SETUP=1
 ```
-[tw-mbp-ajamadar agoric (main)]$ docker-compose up
+$ docker-compose up
 Recreating agoric_node_1 ... done
 Attaching to agoric_node_1
 node_1  | Wed Mar 31 10:25:14 UTC 2021 Starting up.
-node_1  | Environment variable passed are SETUP=1 and MONIKER=MyAgoricValidator
+node_1  | Wed Mar 31 10:25:14 UTC 2021 Environment variable passed are SETUP=1 and MONIKER=MyAgoricValidator
 node_1  | Wed Mar 31 10:25:14 UTC 2021 Setting up new environment from scratch
 node_1  | name: agoriccosmos
 node_1  | server_name: ag-cosmos-server
@@ -247,111 +247,25 @@ node_1  | 2021-03-31T10:25:44.782Z block-manager: block 19 begin
 node_1  | 2021-03-31T10:25:44.792Z block-manager: block 19 commit
 node_1  | 2021-03-31T10:25:44.799Z block-manager: block 20 begin
 node_1  | 2021-03-31T10:25:44.808Z block-manager: block 20 commit
-node_1  | 2021-03-31T10:25:44.815Z block-manager: block 21 begin
-node_1  | 2021-03-31T10:25:44.838Z block-manager: block 21 commit
-node_1  | 2021-03-31T10:25:44.844Z block-manager: block 22 begin
-node_1  | 2021-03-31T10:25:44.853Z block-manager: block 22 commit
-node_1  | 2021-03-31T10:25:44.858Z block-manager: block 23 begin
-node_1  | 2021-03-31T10:25:44.868Z block-manager: block 23 commit
-node_1  | 2021-03-31T10:25:44.873Z block-manager: block 24 begin
-node_1  | 2021-03-31T10:25:44.883Z block-manager: block 24 commit
-node_1  | 2021-03-31T10:25:44.888Z block-manager: block 25 begin
-node_1  | 2021-03-31T10:25:44.898Z block-manager: block 25 commit
-node_1  | 2021-03-31T10:25:44.903Z block-manager: block 26 begin
-node_1  | 2021-03-31T10:25:44.931Z block-manager: block 26 commit
-node_1  | 2021-03-31T10:25:44.937Z block-manager: block 27 begin
-node_1  | 2021-03-31T10:25:44.946Z block-manager: block 27 commit
-node_1  | 2021-03-31T10:25:44.951Z block-manager: block 28 begin
-node_1  | 2021-03-31T10:25:44.964Z block-manager: block 28 commit
-node_1  | 2021-03-31T10:25:44.969Z block-manager: block 29 begin
-node_1  | 2021-03-31T10:25:44.979Z block-manager: block 29 commit
-node_1  | 2021-03-31T10:25:44.984Z block-manager: block 30 begin
-node_1  | 2021-03-31T10:25:44.994Z block-manager: block 30 commit
-node_1  | 2021-03-31T10:25:45.000Z block-manager: block 31 begin
-node_1  | 2021-03-31T10:25:45.022Z block-manager: block 31 commit
-node_1  | 2021-03-31T10:25:45.028Z block-manager: block 32 begin
-node_1  | 2021-03-31T10:25:45.039Z block-manager: block 32 commit
-node_1  | 2021-03-31T10:25:45.045Z block-manager: block 33 begin
-node_1  | 2021-03-31T10:25:45.054Z block-manager: block 33 commit
-node_1  | 2021-03-31T10:25:45.060Z block-manager: block 34 begin
-node_1  | 2021-03-31T10:25:45.070Z block-manager: block 34 commit
-node_1  | 2021-03-31T10:25:45.076Z block-manager: block 35 begin
-node_1  | 2021-03-31T10:25:45.085Z block-manager: block 35 commit
-node_1  | 2021-03-31T10:25:45.090Z block-manager: block 36 begin
-node_1  | 2021-03-31T10:25:45.118Z block-manager: block 36 commit
-node_1  | 2021-03-31T10:25:45.123Z block-manager: block 37 begin
-node_1  | 2021-03-31T10:25:45.133Z block-manager: block 37 commit
-node_1  | 2021-03-31T10:25:45.139Z block-manager: block 38 begin
-node_1  | 2021-03-31T10:25:45.149Z block-manager: block 38 commit
-node_1  | 2021-03-31T10:25:45.154Z block-manager: block 39 begin
-node_1  | 2021-03-31T10:25:45.165Z block-manager: block 39 commit
-node_1  | 2021-03-31T10:25:45.171Z block-manager: block 40 begin
-node_1  | 2021-03-31T10:25:45.181Z block-manager: block 40 commit
-node_1  | 2021-03-31T10:25:45.187Z block-manager: block 41 begin
-node_1  | 2021-03-31T10:25:45.200Z block-manager: block 41 commit
-node_1  | 2021-03-31T10:25:45.207Z block-manager: block 42 begin
-node_1  | 2021-03-31T10:25:45.231Z block-manager: block 42 commit
-node_1  | 2021-03-31T10:25:45.237Z block-manager: block 43 begin
-node_1  | 2021-03-31T10:25:45.246Z block-manager: block 43 commit
-node_1  | 2021-03-31T10:25:45.251Z block-manager: block 44 begin
-node_1  | 2021-03-31T10:25:45.260Z block-manager: block 44 commit
-node_1  | 2021-03-31T10:25:45.265Z block-manager: block 45 begin
-node_1  | 2021-03-31T10:25:45.274Z block-manager: block 45 commit
-node_1  | 2021-03-31T10:25:45.280Z block-manager: block 46 begin
-node_1  | 2021-03-31T10:25:45.290Z block-manager: block 46 commit
-node_1  | 2021-03-31T10:25:45.297Z block-manager: block 47 begin
-node_1  | 2021-03-31T10:25:45.325Z block-manager: block 47 commit
-node_1  | 2021-03-31T10:25:45.331Z block-manager: block 48 begin
-node_1  | 2021-03-31T10:25:45.342Z block-manager: block 48 commit
-node_1  | 2021-03-31T10:25:45.348Z block-manager: block 49 begin
-node_1  | 2021-03-31T10:25:45.359Z block-manager: block 49 commit
-node_1  | 2021-03-31T10:25:45.366Z block-manager: block 50 begin
-node_1  | 2021-03-31T10:25:45.379Z block-manager: block 50 commit
-node_1  | 2021-03-31T10:25:45.385Z block-manager: block 51 begin
-node_1  | 2021-03-31T10:25:45.396Z block-manager: block 51 commit
-node_1  | 2021-03-31T10:25:45.401Z block-manager: block 52 begin
-node_1  | 2021-03-31T10:25:45.422Z block-manager: block 52 commit
-node_1  | 2021-03-31T10:25:45.428Z block-manager: block 53 begin
-node_1  | 2021-03-31T10:25:45.439Z block-manager: block 53 commit
-node_1  | 2021-03-31T10:25:45.445Z block-manager: block 54 begin
-node_1  | 2021-03-31T10:25:45.455Z block-manager: block 54 commit
-node_1  | 2021-03-31T10:25:45.460Z block-manager: block 55 begin
-node_1  | 2021-03-31T10:25:45.469Z block-manager: block 55 commit
-node_1  | 2021-03-31T10:25:45.475Z block-manager: block 56 begin
-node_1  | 2021-03-31T10:25:45.483Z block-manager: block 56 commit
-node_1  | 2021-03-31T10:25:45.492Z block-manager: block 57 begin
-node_1  | 2021-03-31T10:25:45.518Z block-manager: block 57 commit
-node_1  | 2021-03-31T10:25:45.523Z block-manager: block 58 begin
-node_1  | 2021-03-31T10:25:45.532Z block-manager: block 58 commit
-node_1  | 2021-03-31T10:25:45.538Z block-manager: block 59 begin
-node_1  | 2021-03-31T10:25:45.549Z block-manager: block 59 commit
-node_1  | 2021-03-31T10:25:45.555Z block-manager: block 60 begin
-node_1  | 2021-03-31T10:25:45.566Z block-manager: block 60 commit
-node_1  | 2021-03-31T10:25:45.571Z block-manager: block 61 begin
-node_1  | 2021-03-31T10:25:45.580Z block-manager: block 61 commit
-node_1  | 2021-03-31T10:25:45.586Z block-manager: block 62 begin
-node_1  | 2021-03-31T10:25:45.605Z block-manager: block 62 commit
-node_1  | 2021-03-31T10:25:45.610Z block-manager: block 63 begin
-node_1  | 2021-03-31T10:25:45.621Z block-manager: block 63 commit
-node_1  | 2021-03-31T10:25:45.626Z block-manager: block 64 begin
-node_1  | 2021-03-31T10:25:45.636Z block-manager: block 64 commit
-node_1  | 2021-03-31T10:25:45.642Z block-manager: block 65 begin
-node_1  | 2021-03-31T10:25:45.652Z block-manager: block 65 commit
-node_1  | 2021-03-31T10:25:45.657Z block-manager: block 66 begin
-node_1  | 2021-03-31T10:25:45.667Z block-manager: block 66 commit
-node_1  | 2021-03-31T10:25:45.673Z block-manager: block 67 begin
+.........
+.........
 ```
 #### When SETUP=0
 ```
 $ docker-compose up
-Starting docker_node_1 ... done
-Attaching to docker_node_1
-node_1  | 0 == MyAgoricValidator
-node_1  | 2021-03-31T10:09:06.864Z launch-chain: Launching SwingSet kernel
-node_1  | 2021-03-31T10:09:15.036Z block-manager: block 2287 begin
-node_1  | 2021-03-31T10:09:15.175Z block-manager: block 2287 commit
-node_1  | 2021-03-31T10:09:15.214Z block-manager: block 2288 begin
-node_1  | 2021-03-31T10:09:15.281Z block-manager: block 2288 commit
-node_1  | 2021-03-31T10:09:15.317Z block-manager: block 2289 begin
+Recreating agoric_node_1 ... done
+Attaching to agoric_node_1
+node_1  | Wed Mar 31 10:31:38 UTC 2021 Starting up.
+node_1  | Wed Mar 31 10:31:38 UTC 2021 Environment variable passed are SETUP=0 and MONIKER=MyAgoricValidator
+node_1  | Wed Mar 31 10:31:38 UTC 2021 Starting Agoric service
+node_1  | 2021-03-31T10:31:41.657Z launch-chain: Launching SwingSet kernel
+node_1  | 2021-03-31T10:31:42.423Z block-manager: block 127 begin
+node_1  | 2021-03-31T10:31:42.430Z block-manager: block 127 commit
+node_1  | 2021-03-31T10:31:44.020Z block-manager: block 128 begin
+node_1  | 2021-03-31T10:31:44.033Z block-manager: block 128 commit
+node_1  | 2021-03-31T10:31:44.610Z block-manager: block 129 begin
+node_1  | 2021-03-31T10:31:44.639Z block-manager: block 129 commit
+node_1  | 2021-03-31T10:31:45.201Z block-manager: block 130 begin
+node_1  | 2021-03-31T10:31:45.239Z block-manager: block 130 commit
 ```
 Use -d to detach from the container and run in background.
